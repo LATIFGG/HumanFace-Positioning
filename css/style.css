@@ -1,0 +1,112 @@
+.container {
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  background-color: rgb(212, 188, 235);
+  position: relative;
+}
+/* HEAD */
+.circle-head {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: bisque;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
+/* BIG EYES */
+.circle-left-eye-big,
+.circle-right-eye-big {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: rgb(180, 175, 175);
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.circle-left-eye-middle,
+.circle-right-eye-middle {
+  width: 49px;
+  height: 44px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: bisque;
+  margin-top: 4px;
+}
+.circle-left-eye-small,
+.circle-right-eye-small {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: black;
+  margin-top: 24px;
+}
+.circle-right-eye-big {
+  margin-top: -50px;
+  margin-left: 170px;
+}
+/* NOSE */
+.triangle-nose {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid rgb(173, 169, 169);
+  margin: auto;
+  margin-top: 10px;
+}
+.oval-nose {
+  height: 30px;
+  width: 60px;
+  background-color: rgb(173, 169, 169);
+  border-radius: 45%;
+  margin-left: 105px;
+  margin-top: -11px;
+}
+/* MOUTH */
+.mouth-top {
+  height: 30px;
+  width: 140px;
+  background-color: rgb(173, 169, 169);
+  border-radius: 45%;
+  margin-left: 65px;
+  margin-top: 20px;
+  border: none;
+}
+.mouth-bottom {
+  height: 20px;
+  width: 140px;
+  background-color: bisque;
+  border-radius: 30%;
+  margin-top: -5px;
+  border: none;
+}
+/* TIE-PAPYON */
+.rectangle-papyon {
+  width: 100px;
+  height: 20px;
+  border: 2px solid rgb(146, 36, 36);
+  position: relative;
+  top: 30px;
+  left: 150px;
+}
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 50px solid rgb(146, 36, 36);
+  border-bottom: 10px solid transparent;
+}
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 50px solid rgb(146, 36, 36);
+  border-bottom: 10px solid transparent;
+  margin-left: 50px;
+  margin-top: -10px;
+}
